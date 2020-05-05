@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: '@activatedProfile@'
+
+server:
+  port: 8080
+
+storage:
+  localDir: ${HOME}/spring-boot-template-service
+  dataDir: parks
